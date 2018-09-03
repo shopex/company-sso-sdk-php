@@ -1,0 +1,21 @@
+{
+    "name": "shopex/company-sso",
+    "description": "Shopex Single Sign On System API SDK.",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "6.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shopex\\CompanySSO\\": "src/"
+        }
+    },
+    "license": "MPL",
+    "authors": [
+        {
+            "name": "Elrond",
+            "email": "guocheng@shopex.cn"
+        }
+    ],
+    "require": {}
+}
