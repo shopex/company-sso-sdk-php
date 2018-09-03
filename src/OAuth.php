@@ -1,6 +1,8 @@
 <?php
 namespace Shopex\CompanySSO;
 
+use Shopex\CompanySSO\Links;
+
 class OAuth
 {
 
@@ -23,10 +25,11 @@ class OAuth
         {
             $code = $code ? : $this->getCode();
             return $this->codeToUserinfo($code);
+        } else {
+            $redirectUrl = $this->getOauthRedirectUrl();
+            return $this->redirect($redirectUrl);
         }
 
-        $redirectUrl = $this->getOauthRedirectUrl();
-        return $this->redirect($redirectUrl);
     }
 
     public function getOauthRedirectUrl($redirectUrl = "", $state = "")
