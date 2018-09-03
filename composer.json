@@ -10,7 +10,7 @@
             "Shopex\\CompanySSO\\": "src/"
         }
     },
-    "license": "MPL",
+    "license": "MIT",
     "authors": [
         {
             "name": "Elrond",
