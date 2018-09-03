@@ -3,7 +3,7 @@
     "description": "Shopex Single Sign On System API SDK.",
     "type": "library",
     "require": {
-        "guzzlehttp/guzzle": "6.3.*"
+        "guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
         "psr-4": {
@@ -16,6 +16,5 @@
             "name": "Elrond",
             "email": "guocheng@shopex.cn"
         }
-    ],
-    "require": {}
+    ]
 }
