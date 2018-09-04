@@ -91,5 +91,9 @@ class OAuth
         return $str;
     }
 
+    private function getCode()
+    {
+        return isset($_GET['code']) ? $_GET['code'] : false;
+    }
 
 }
